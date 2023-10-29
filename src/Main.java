@@ -3,7 +3,8 @@ public class Main {
         CharacterFactory healerFactory = new HealerFactory();
         CharacterFactory knightFactory = new KnightFactory();
         CharacterFactory mageFactory = new MageFactory();
-        //i want healer
+        CharacterFactory archerFactory = new ArcherFactory();
+        //i want to create a healer
         Character healer = healerFactory.createCharacter();
         healer.greeting();
         healer.attack();
